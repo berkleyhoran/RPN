@@ -1,6 +1,5 @@
-
-
 function solve(value){ 
+
         value = value.split(" ");
         var stack = [];
 
@@ -53,7 +52,8 @@ function solve(value){
         //success!!
         if(equation.length > 1){
         alert(solve(equation))
-        } else{
+        }
+         else{
         alert("INSERT EQUATION")
         }
     }
